@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> formularios </title>
+    </head>
+    <body>
+        <h2>Rellena este campo:</h2>
+        <form action="resultados-html" method="GET">
+            <br>
+            <label for="nombre.usuario">Ussername</label>
+            <br>
+            <input name="nombre-usuario" id="nombre-usuario" required/>
+            <br>
+            <label for="contrasenia"> Password </label>
+            <br>
+            <input name="contrasenia" id="contrasenia" required type="password"/>
+            <br>
+            <label for="edad">Your age And date of birth</label>
+            <br>
+            <input name="edad" id="edad" type="number" min="0" max="120" required>
+            <label for="cumpleaños"></label>
+            <input name="cumpleaños" id="cumpleaños" type="date" required>
+            <br>
+            <label for="gmail">Contact Email</label>
+            <br>
+            <input name="gmail" id="gmail" type="email">
+            <label><h4>Comentarios:</h4> </label>
+            <textarea></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
