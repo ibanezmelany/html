@@ -1,2 +1,4 @@
-# html
-HTML practice
+## html
+## Practice
+
+1. Basic initial page.
